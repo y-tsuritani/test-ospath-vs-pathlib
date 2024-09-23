@@ -17,6 +17,9 @@ select = [
   "D",   # pydocstyle (`D`)
   # "PTH"
 ]
+ignore = [
+  "D100", # Missing docstring in public module
+]
 # Allow fix for all enabled rules (when `--fix`) is provided.
 fixable = ["ALL"]
 
